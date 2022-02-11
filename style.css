@@ -1,0 +1,149 @@
+body{
+    font-family: cursive;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    min-height: 60vh;
+    background: url("https://c4.wallpaperflare.com/wallpaper/500/442/354/outrun-vaporwave-hd-wallpaper-preview.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+.nav{
+    min-height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items{
+    width: 40%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.headline{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.h2{
+    color: white;
+}
+.btn-headline{
+    padding: 1rem 2rem;
+    font-size: 1 rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+.todo-section{
+    margin-top: 5rem;
+    text-align: center;
+
+}
+.form-todo{
+    /* border: 2px solid red; */
+    min-height: 5vh;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 1rem;
+
+
+}
+.form-todo input{
+    min-height: 100%;
+}
+.form-todo input[type="text"]{
+    width: 78%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 450;
+}
+.form-todo input[type="submit"]{
+    width: 20%;
+    background-color: rgb(34, 20, 20);
+    color: white;
+    font-weight: bold;
+
+}
+.section-signup{
+    margin: 5rem auto;
+    text-align: left;
+    background:cornsilk;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.signupform label{
+display: block;
+}
+.signupform input{
+    display: block;
+    width: 100%;
+    padding: 0.5 rem;
+}
+.signupform{
+    max-width: 800px;
+    width: 95%;
+    /* text-align: center; */
+    margin: auto;
+}
+
+.form-group{
+    margin-top: 1rem;
+}
+.signupform textarea{
+    width: 100%;
+   
+}
+.signup-btn{
+    background:rgb(34, 20, 20) ;
+    color: white;
+    padding: 1rem 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+}
+.bg-dark{
+    background: black;
+    color: white;
+}
+.todo-list li{
+    padding: 0.7rem;
+    background: #444;
+    color: white;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo-btn{
+    /* min-height: 100%; */
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    
+
+}
